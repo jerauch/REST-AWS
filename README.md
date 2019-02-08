@@ -214,26 +214,28 @@ mySack correspondra à la pile qui sera créée dans CloudFormation.
 
 Dans l’interface AWS, sur CloudFormation on peut voir que notre environnement a été créé : 
 
-
+<img src="1.png">
 
 L’onglet Ressources nous permet de voir les ressources utilisées : 
 
-
+<img src="2.png">
 
 En cliquant sur la ligne ServerlessRestApi on arrive sur le détail de notre api et sur nos 3 fonctions. 
 
 Un clic par exemple sur la fonction PUT nous permet de tester cette dernière : 
 
-
+<img src="3.png">
 
 Pour stocker l’id 5 avec l’objet suivant : 
+```json
 { "name":"John", "age":30, "car":null }
+```
 
-
+<img src="4.png">
 
 Ensuite nous allons tester la fonction GET pour vérifier que les données ont bien été stockées :
 
-
+<img src="5.png">
 
 Dans le corps de la réponse on retrouve bien notre objet JSON !
 
