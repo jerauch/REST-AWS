@@ -214,7 +214,8 @@ mySack correspondra à la pile qui sera créée dans CloudFormation.
 
 Dans l’interface AWS, sur CloudFormation on peut voir que notre environnement a été créé : 
 
-<img src="img/1.png">
+![Screenshot](./img/1.png)
+
 
 L’onglet Ressources nous permet de voir les ressources utilisées : 
 
